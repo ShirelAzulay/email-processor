@@ -1,8 +1,7 @@
 // src/email/email.controller.ts
 import { Controller, Post, Body } from '@nestjs/common';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
-import { ProcessEmailDto } from './dto/process-email.dto';
-import { ProcessResultDto } from './dto/process-result.dto';
+import {ProcessEmailDto, ProcessResultDto} from './dto';
 import { EmailService } from './email.service';
 
 @ApiTags('email')
